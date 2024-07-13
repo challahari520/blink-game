@@ -43,7 +43,7 @@ export const Game = () => {
             setSuccess(null);
         }, 1000);
 
-        console.log('timer is', timer.current);
+        console.log('timer ref is', timer.current);
     }
 
 
